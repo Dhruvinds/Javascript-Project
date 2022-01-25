@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.clock {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #fff;
+    text-shadow: 0 0 10px #887897,
+                 0 0 20px #887897,
+                 0 0 40px #887897,
+                 0 0 80px #887897,
+                 0 0 120px #887897;
+}
